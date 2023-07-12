@@ -3,13 +3,14 @@
     padding: 0px;
 }
 
-
+  main{ 
+     width:1330px ; 
+}
 .banner-container{ 
     display: flex;
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    /* border: 2px solid blueviolet; */
     color: white;
     background-image: url("./Flower\ Ass/background-image"),
     linear-gradient(45deg,rgb(240, 218, 218),rgb(245, 201, 201)
@@ -43,25 +44,32 @@
 
 }
 
-.banner-container2{
+ .banner-container2{ 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
+    left: 0px;
 
     height: 100vh;
     align-items: center;
     color: rgb(123, 236, 218);
     background-color: burlywood;
     background-image: inherit;
+
+    border: 2px solid rgb(240, 236, 243); 
+
     
 }
 
 .title2{
-    font-size: 90;
+    font-size: 60px;
     font-weight: bold;
     color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
 }
@@ -70,50 +78,97 @@
     margin-top: 10px;
     margin-bottom: 20px;
     color: rgb(15, 15, 15);
-
-}
-.btn2{
-    padding: 15px 20px;
-    color: rgb(248, 247, 248);
-    background-color: purple;
-    border-radius: 10px;
-    border: none;
-}
-
-.banner-img2{
+    display: flex;
+    justify-content: center;
     align-items: center;
 
-    
+}
+
+
+ 
+
+
+.about-photo{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
     
 }
 
-.about-container{
+ 
+.clr{
+    color: red;
+}
+  
+.box{
+    /*    display: inline; */
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    padding: 15px;
+    /* text-align: center; */
+    box-shadow: 15px  15px 15px rgb(212, 212, 206);   
+    /* color: rgb(109, 26, 12); */
+    border-radius: 200px 200px 0px 0px;
+    height: 300px;
+    margin-bottom: 50px;
+    background-position-x: center;
+    background-color: rgb(92, 136, 136);
+
+}
+.banner-txt{
+    text-align: center;
+    padding: 15px;
+    font-size: medium;
+    align-items: center;
+    margin: 100px ;
+
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+
+
+.banner{
+    background-color: rgb(116, 93, 93);
+    
+    color: rgb(255, 248, 248);
+    margin-top: 50px;
+    height: 200px;
+    width: 1350px;
+
+}
+
+.des{
+    text-align: center;
+    padding: 14px;
+    font-size: 10px;
+    color: rgb(243, 246, 248);
+    align-items: center;
+}
+.banner-bag{
+    height:350px;
+    background-image: url("./Rectangle\ 9.png"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    /* background-blend-mode: overlay; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.gm{
     display: flex;
     justify-content: center;
     
-
-}
-
-.about-photo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.title3{
-    text-align: center;
-    padding-top: 20px;
-    font-size: 50px;
-    justify-items: center;
-    align-items: center;
-    color: rgb(3, 3, 3);
-}
-
-.description3{
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-    color: rgb(1, 15, 27);
-    align-items: center;
 }
